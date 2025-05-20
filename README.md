@@ -1,4 +1,151 @@
-# uts_digital-business
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UangKu</title>
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      background-color: #d3b9cc;
+      margin: 0;
+      padding: 0;
+      color: #1e1e1e;
+    }
 
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+    }
 
-Click to visit website: https://github.com/Febiola30/uts_digital-business.git
+    .logo {
+      font-weight: bold;
+    }
+
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #000;
+    }
+
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 40px;
+    }
+
+    .hero-text {
+      max-width: 50%;
+    }
+
+    .hero-text h1 {
+      font-size: 2.5em;
+      line-height: 1.4em;
+      font-weight: bold;
+    }
+
+    .hero-text p {
+      font-size: 1em;
+      margin-top: 10px;
+    }
+
+    .btn {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #4588dc;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero-img {
+      width: 300px;
+      height: 300px;
+      background-color: #cfdceb;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .hero-img img {
+      width: 80px;
+    }
+
+    .features {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 40px;
+      padding: 40px;
+      text-align: center;
+    }
+
+    .feature {
+      max-width: 200px;
+    }
+
+    .feature img {
+      width: 60px;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      margin-top: 40px;
+      padding: 20px 40px;
+      font-size: 0.9em;
+      display: flex;
+      justify-content: space-between;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">UangKu</div>
+    <nav>
+      <a href="#">Beranda</a>
+      <a href="#">Fitur</a>
+      <a href="#">Tentang</a>
+      <a href="#">Kontak</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Atur Keuangan <br> Lebih Mudah, <br> Cepat, dan Rapi</h1>
+      <p>Kelola keuangan pribadi kamu tanpa repot dan kapan pun dibutuhkan.</p>
+      <a class="btn" href="#">Coba Gratis Sekarang</a>
+    </div>
+    <div class="hero-img">
+      <img src="https://cdn-icons-png.flaticon.com/512/3081/3081559.png" alt="wallet icon">
+    </div>
+  </section>
+
+  <section class="features">
+    <div class="feature">
+      <img src="https://cdn-icons-png.flaticon.com/512/1828/1828911.png" alt="Pencatatan Otomatis">
+      <h3>Pencatatan Otomatis</h3>
+      <p>Sistem akan mencatat pengeluaran harian secara praktis.</p>
+    </div>
+    <div class="feature">
+      <img src="https://cdn-icons-png.flaticon.com/512/1827/1827301.png" alt="Pengingat Tagihan">
+      <h3>Pengingat Tagihan</h3>
+      <p>Fitur pengingat untuk cicilan atau tagihan bulanan</p>
+    </div>
+    <div class="feature">
+      <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Laporan Visual">
+      <h3>Laporan Visual</h3>
+      <p>Grafik dan statistik keuangan untuk analisis pribadi</p>
+    </div>
+  </section>
+
+  <footer>
+    <div>mariafebiolakrisantifouk.com</div>
+    <div>22.11.4610_Maria Febiola Krisanti Fouk</div>
+  </footer>
+</body>
+</html>
